@@ -8,6 +8,18 @@ The implementation for this uses the Beer API (https://punkapi.com/documentation
 
 Within this repo you will find several different langauges and frameworks as starting points. You are free to use any of these as a starting point for your solution using the boiler plate code provided. The boiler plate code is not intended to be a complete solution and you are free to change any of the code as you see fit. 
 
+## Task
+
+The task is to implement the following features:
+
+* Change API pagination to `15`
+* Enhance the Single Beer view with more information from the API, for example: `name`, `description`, `image_url`, `abv`, `ibu`, `ebc`, `food_pairing`, `brewers_tips` (Feel free to implement any other information you think is relevant)
+* Implement pagination - do not worry about total number of pages, just implement a `Next`/`Previous` button to load the next page or previous page of beers
+* Implement clickable links to the Single Beer view from the Beer List view
+* Add support for searching the API by beer name
+* Any design improvements you would make
+
+
 ## Documentation
 
 The full API documentation can be found at https://punkapi.com/documentation/v2 but the following endpoints are the ones you will need to use:
