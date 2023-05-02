@@ -4,7 +4,7 @@
 
 This is a technical test for Oxbury Bank. The test is partially complete and requires a few basic features added to it.
 
-The implementation for this uses the Beer API (https://punkapi.com/documentation/v2) to retrieve a list of beers from the API.
+The implementation for this uses the Beer API (https://punkapi.com/documentation/v2) to retrieve a list of beers from the API. It is purposefully incomplete, requires a few basic features added to it and does has scope for architectural improvements.
 
 Within this repo you will find several different langauges and frameworks as starting points. You are free to use any of these as a starting point for your solution using the boiler plate code provided. The boiler plate code is not intended to be a complete solution and you are free to change any of the code as you see fit. 
 
@@ -17,8 +17,7 @@ The task is to implement the following features:
 * Implement pagination - do not worry about total number of pages, just implement a `Next`/`Previous` button to load the next page or previous page of beers
 * Implement clickable links to the Single Beer view from the Beer List view
 * Add support for searching the API by beer name
-* Any design improvements you would make
-
+* Any design/architectural improvements you would make?
 
 ## Documentation
 
@@ -57,3 +56,4 @@ Examples of the boilerplates can be found in the following folders:
 
 
 
+z
