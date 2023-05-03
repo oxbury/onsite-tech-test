@@ -22,7 +22,8 @@ The task is to implement the following features, do not worry about styling the 
 3. Implement basic pagination -  a basic `Next`/`Previous` button to load the next page or previous page of beers would be sufficient but feel free to implement in any way you see fit!
 4. Allow beers to be clicked and displayed on a separate page/view
 5. Add searching ability to the list of beers
-6. Please comment on any architectural or design improvements you would make to the codebase; we're not expecting you to implement these, just to highlight them!
+6. Think or implement tests for application, think about what type of tests are appropriate
+7. Please comment on any architectural or design improvements you would make to the codebase; we're not expecting you to implement these, just to highlight them!
 
 ## Documentation
 
