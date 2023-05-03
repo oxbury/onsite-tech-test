@@ -5,12 +5,13 @@ export class BeerApiService {
   /**
    * Get a list of beers
    *
-   * @returns {Promise<Beer[]>} List of beers
+   * @returns {Promise<ApiResponse<Beer[]>>} List of beers
    */
   public static async getBeers(
     searchParams?: BeerSearch
   ): Promise<ApiResponse<Beer[]>> {
     return this.callApi<Beer[]>("beers", {
+      // Set the default page size
       per_page: BEER_API_PAGE_SIZE,
       ...searchParams,
     });
@@ -20,7 +21,7 @@ export class BeerApiService {
    * Get a single beer by its ID
    *
    * @param id ID of the beer to get
-   * @returns {Promise<Beer>} Beer with the given ID
+   * @returns {Promise<ApiResponse<Beer>>} Beer with the given ID
    */
   public static async getBeerById(id: string): Promise<ApiResponse<Beer>> {
     return this.callApi<Beer>(`beers/${id}`);
@@ -28,7 +29,20 @@ export class BeerApiService {
 
   /**
    * Calls the API with the given endpoint and returns the response
-   *
+   * 
+   * Example of how to call this method:
+   * 
+   * ```typescript
+   * const { data, errors } = await this.callApi<Beer[]>("beers");
+   * 
+   * if (!data || errors) {
+  *   console.error("Error whilst getting beers: ", { errors })
+   *  return; 
+   * }
+   * 
+   * console.log("Beers: ", { data });
+   * ```
+   * 
    * @param endpoint Endpoint within the API to call
    * @returns {Promise<ApiResponse<T>>} Response from the API
    */
@@ -55,7 +69,7 @@ export class BeerApiService {
       console.error(`Error whilst calling API ${fullEndpoint}: `, { error });
       return {
         data: null,
-        errors: [error?.message ?? "Unknown error occured"],
+        errors: [error?.message ?? "Unknown error occurred"],
       };
     }
   }
