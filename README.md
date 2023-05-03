@@ -10,14 +10,14 @@ Within this repo you will find several different langauges and frameworks as sta
 
 ## Task
 
-The task is to implement the following features:
+The task is to implement the following features, do not worry about styling the application, we are more interested in how you implement the features and your approach to the problem! 
 
-* Change API pagination to `15`
-* Enhance the Single Beer view with more information from the API, for example: `name`, `description`, `image_url`, `abv`, `ibu`, `ebc`, `food_pairing`, `brewers_tips` (Feel free to implement any other information you think is relevant)
-* Implement pagination - do not worry about total number of pages, just implement a `Next`/`Previous` button to load the next page or previous page of beers
-* Implement clickable links to the Single Beer view from the Beer List view
-* Add support for searching the API by beer name
-* Any design/architectural improvements you would make?
+1. Change API pagination to `15`
+2. Enhance the Single Beer view with more information from the API, for example: `name`, `description`, `image_url`, `abv`, `ibu`, `ebc`, `food_pairing`, `brewers_tips` (Feel free to implement any other information you think is relevant)
+3. Implement pagination - do not worry about total number of pages, just implement a `Next`/`Previous` button to load the next page or previous page of beers
+4. Implement clickable links to the Single Beer view from the Beer List view
+5. Add support for searching the API by beer name
+6. Any design/architectural improvements you would make?
 
 ## Documentation
 
