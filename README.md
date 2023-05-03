@@ -55,5 +55,3 @@ Examples of the boilerplates can be found in the following folders:
 `next-tech-test` - `nextjs`/`react` implementation using `typescript` (https://nextjs.org/)
 
 
-
-z
