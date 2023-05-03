@@ -9,3 +9,5 @@ To run the project locally, you will need to have [Node.js](https://nodejs.org/e
 1. Clone the repository
 2. Install dependencies with `npm install`/`yarn install`
 3. Run the development server with `npm run dev`/`yarn dev`
+
+Please refer to the root [`README.md`](../README.md) for more information.
