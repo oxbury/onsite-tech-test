@@ -14,7 +14,7 @@ If you are using a boilerplate, styling maybe already implemented for parts of t
 
 ## Task
 
-The task is to implement the following features, do not worry about styling the application, we are more interested in how you implement the features and your approach to the problem!
+The task is to implement the following features, do not worry about styling the application, we are more interested in how you implement the features and your approach to the problem. Please feel free to ask any questions you may have, we are happy to help!
 
 
 1. Change API pagination to `15` beers per page
